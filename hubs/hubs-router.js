@@ -20,6 +20,11 @@ router.get('/', (req, res) => {
   });
 });
 
+// router.use((req, res, next) => {
+//   console.log('I am here... always watching...');
+//   next();
+// })
+
 // /api/hubs/:id
 
 router.get('/:id', (req, res) => {

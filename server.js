@@ -2,6 +2,8 @@ const express = require('express'); // importing a CommonJS module
 
 const hubsRouter = require('./hubs/hubs-router.js');
 
+const helmet = require('helmet');
+
 const server = express();
 
 server.use(express.json());
